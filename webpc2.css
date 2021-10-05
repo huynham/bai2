@@ -1,0 +1,267 @@
+body {
+margin:0px;
+padding: 0px;
+
+}
+@media only screen and (min-width:1366px) and (max-width:3000px) {
+#toantrang {width:100%;height:auto;}
+#menu {width:100%;height:50px; position:relative;}
+.menubagach {display:none;}
+  .logo {color:red;font-size: 17px; width:50px; }
+  #menu ul {position:absolute;top:0;right:50px;}
+  #menu ul li {display:inline; margin:0 25px 0 0; position:relative;}
+  #menu img {position:absolute; top:10px;right:10px;}
+  #menu ul li ul {display:none;position: absolute; top:100%;left:-40px;z-index:2;
+    width: 300px;background-color:whitesmoke; border-radius: 10px;}
+  #menu ul li ul li { display:block;margin: 5px 0 5px 0;}
+  #menu ul li ul li a {font-size: 20px;text-decoration: none;color:black;}
+  #menu ul li ul li:hover a {font-size: 20px;text-decoration: underline; color:blueviolet;}
+  #menu ul li:hover ul {display:block;}
+
+  #anhmenu {width: 100%; height:600px; background-image:url("ima1.png");background-size:100% 100%;
+       position:relative;}
+       .chuh1 {color:white;position:absolute;top:30%;left:20%; font-size:50px; }
+       .chuh1a {display:none;}
+       .chuh5 { color:white;position:absolute;top:40%;left:40%;font-size:30px;}
+       .chuh5>img {margin:0 20px 0 0;}
+       .chugoctrai {width:30%;height:100px; position:absolute;left:0;bottom:20px;}
+       .chugoctrai img{float:left;margin: 40px 30px 0 40px; }
+       .chugoctrai p {margin:50px 0 0 0;color:white;font-size:15px;}
+
+       .chugocphai {width:25%;height:150px;border:1px dotted white;position: absolute; bottom:20px;right:20px;}
+       .chugocphai h3 {color:red;padding: 10px 0 0 20px;}
+       .chugocphai p {color:white;padding: 10px 0 0 20px;}
+
+       #phangiua {width:70%;height:auto;margin:0 auto; }
+       #om3div {width:100%;height: auto; margin-top:50px;position: relative;}
+       
+       .trai1 {width:40%;height:auto;border-right:2px solid rgb(50, 50, 61); }
+       .trai1a {display:none;}
+       .trai1 .h1trai1 {margin:0 0 100px 0;}
+       .trai1 .ptrai1 {color:black;padding:0 50px 0 0; margin-bottom:150px;}
+       .trai1 .h3trai1 {color:black;}
+       .trai1 .imgtrai1 {float:left;}
+       .trai1 .p2trai1 {color:black;margin:0 0 50px 40px;}
+
+       .phai1 {width:60%;height:auto;;position: absolute;top:0;right:0; }
+       .phai1 .imgphai1 {float:left;padding-left:40px;}
+       .phai1 .h3phai1 {margin:10px 0 60px 50px;padding-left:40px;}
+       .phai1 .pphai1 {color:black;margin: 0 0 20px 0;padding-left:40px;}
+       .phai1 .img2phai1 {float:left;padding-left:40px;}
+       .phai1 .p2phai1 {color:black;margin:0 0 0 20px;padding-left:40px;}
+
+       .phai2 {width:60%;height:auto; position:absolute;top:210px;right:0;}
+       .phai2 .imgphai2 {float:left;padding-left:40px;}
+       .phai2 .h3phai2 {margin:10px 0 60px 50px;padding-left:40px;}
+       .phai2 .pphai2 {color:black;margin: 0 0 20px 0;padding-left:40px;}
+       .phai2 .img2phai2 {float:left;padding-left:40px;}
+       .phai2 .p2phai2 {color:black;margin:0 0 0 20px;padding-left:40px;}
+       .phai2 .img3phai2 {width:90%;height:250px;margin:10px 0 0 0;padding-left:40px;}
+
+       #phancuoi {width:100%;height:auto; background-color:darkgray;}
+        .giuacuoi {width:70%;height:200px;margin:0 auto; position:relative;}
+          
+
+        .giuacuoi1 {width:45%;height:120px;position: absolute;top:40px;left:0;}
+              .giuacuoi1 .pgiuacuoi1 {color:white;width:50px;height:20px;
+          margin:0 200px 0 0;}
+          .giuacuoi1 .ul1giuacuoi1 {list-style: none;position:absolute;top:0px;left:150px; margin:0;padding:0;color:white;}
+          .giuacuoi1 .ul2giuacuoi1 {list-style: none;position:absolute;top:0px;left:300px; margin:0;padding:0;color:white;}
+          .giuacuoi1 .ul3giuacuoi1 {list-style: none;position:absolute;top:0px;left:400px; margin:0;padding:0;color:white;}
+        .giuacuoi2 {width:30%;height:120px;position: absolute;top:40px;left:45%;}
+             .giuacuoi2 .inpgiuacuoi2 {width:40%;position: absolute;top:0;right:0; border:1px solid white;
+                 height:30px;}
+                 .giuacuoi2 .imggiuacuoi2 {position: absolute;top:8px;right:20px; }
+                 .giuacuoi2 .pgiuacuoi2 {position: absolute;top:35px;right:0; color:white;}
+                 
+
+        .giuacuoi3 {width:30%;height:120px;position: absolute;top:40px;right:0;}
+           .giuacuoi3 .mxh {list-style: none; position: absolute;top:0;right:0;margin:0;padding:0;}
+           .giuacuoi3 .mxh li {display: inline;margin: 0 0 0 30px;}
+
+}
+
+
+@media only screen and (min-width:1024px) and (max-width:1365px){
+
+  #toantrang {width:100%;height:auto;}
+#menu {width:100%;height:50px; position:relative;}
+.menubagach {display:none;}
+  .logo {color:red;font-size: 17px; width:50px; }
+  #menu ul {position:absolute;top:0;right:50px;}
+  #menu ul li {display:inline; margin:0 25px 0 0; position:relative;}
+  #menu img {position:absolute; top:10px;right:10px;}
+  #menu ul li ul {display:none;position: absolute; top:100%;left:-40px;z-index:2;
+    width: 300px;background-color:whitesmoke; border-radius: 10px;}
+  #menu ul li ul li { display:block;margin: 5px 0 5px 0;}
+  #menu ul li ul li a {font-size: 20px;text-decoration: none;color:black;}
+  #menu ul li ul li:hover a {font-size: 20px;text-decoration: underline; color:blueviolet;}
+  #menu ul li:hover ul {display:block;}
+
+  #anhmenu {width: 100%; height:600px; background-image:url("ima1.png");background-size:100% 100%;
+       position:relative;}
+       .chuh1 {color:white;position:absolute;top:30%;left:20%; font-size:35px; }
+       .chuh1a {display:none;}
+       .chuh5 { color:white;position:absolute;top:40%;left:40%;font-size:15px;}
+       .chuh5>img {margin:0 20px 0 0;}
+       .chugoctrai {width:30%;height:100px; position:absolute;left:0;bottom:20px;}
+       .chugoctrai img{float:left;margin: 40px 30px 0 40px; }
+       .chugoctrai p {margin:50px 0 0 0;color:white;font-size:15px;}
+
+       .chugocphai {width:25%;height:100px;border:1px dotted white;position: absolute;
+         bottom:20px;right:20px;}
+       .chugocphai h3 {color:red;padding: 0px 0 0 20px;}
+       .chugocphai p {color:white;padding: 0px 0 0 20px;}
+       .chugocphai .an1023 {display:none;}
+
+
+  #phangiua {width:80%;height:auto;margin:0 auto; }
+       #om3div {width:100%;height: auto; margin-top:50px;position: relative;}
+       .trai1 {display:none;}
+       #om3div>.trai1a {width:100%;height:auto;
+         border-bottom:1px solid black;position: relative; }
+
+         .trai1a1 {width:50%; height:auto;}
+         .trai1a1 .h1trai1a1 {padding:0 20px 0 0;}
+         .trai1a1 .ptrai1a1 {padding:0 20px 60px 0;}
+
+         .trai1a2 {width:50%;height:auto;position: absolute;top:0;right:0;}
+         .trai1a2 .p1trai1a2 {padding:0 0 60px 20px;}
+         .trai1a2 .h3trai1a2 {padding:0 0 0 20px;}
+         .trai1a2 .imgtrai1a2 {padding:0 0 0 20px; float:left;}
+         .trai1a2 .p2trai1a2 {padding:0 0 0 50px;}
+
+
+       .phai1 {width:100%;height:auto;margin:80px 0 0 0;}
+       .phai1 .imgphai1 {display:none;float:left;padding-left:40px;}
+       .phai1 .h3phai1 {margin:10px 0 60px 50px;padding-left:0px;}
+       .phai1 .pphai1 {color:black;margin: 0 0 20px 0;padding-left:40px;}
+       .phai1 .img2phai1 {float:left;padding-left:40px;}
+       .phai1 .p2phai1 {color:black;margin:0 0 0 20px;padding-left:40px;}
+
+       .phai2 {width:100%;height:auto;margin-top:50px;}
+       .phai2 .imgphai2 {float:left;padding-left:40px;}
+       .phai2 .h3phai2 {margin:10px 0 60px 50px;padding-left:40px;}
+       .phai2 .pphai2 {color:black;margin: 0 0 20px 0;padding-left:40px;}
+       .phai2 .img2phai2 {float:left;padding-left:40px;}
+       .phai2 .p2phai2 {color:black;margin:0 0 0 20px;padding-left:40px;}
+       .phai2 .img3phai2 {width:90%;height:250px;margin:10px 0 0 0;padding-left:40px;}
+
+
+
+       #phancuoi {width:100%;height:auto; background-color:darkgray;margin-top:60px;}
+       .giuacuoi {width:80%;height:300px;margin:0 auto; position:relative;}
+          
+
+        .giuacuoi1 {width:100%;height:120px;position: absolute;top:40px;left:0;}
+              .giuacuoi1 .pgiuacuoi1 {color:white;width:50px;height:20px;
+          margin:0 200px 0 0;}
+          .giuacuoi1 .ul1giuacuoi1 {list-style: none;position:absolute;top:0px;left:40%; margin:0;padding:0;color:white;}
+          .giuacuoi1 .ul2giuacuoi1 {list-style: none;position:absolute;top:0px;left:60%; margin:0;padding:0;color:white;}
+          .giuacuoi1 .ul3giuacuoi1 {list-style: none;position:absolute;top:0px;left:80%; margin:0;padding:0;color:white;}
+        .giuacuoi2 {width:50%;height:120px;position: absolute;top:170px;left:0;}
+             .giuacuoi2 .inpgiuacuoi2 {width:40%;position: absolute;top:0;left:0;
+                 height:30px;border:1px solid whitesmoke;}
+                 .giuacuoi2 .imggiuacuoi2 {position: absolute;top:8px;left:35%; }
+                 .giuacuoi2 .pgiuacuoi2 {position: absolute;top:35px;left:0; color:white;}
+                 
+
+        .giuacuoi3 {width:50%;height:80px;position: absolute;top:170px;right:0;}
+           .giuacuoi3 .mxh {list-style: none; position: absolute;bottom:0;right:0;margin:0;padding:0;}
+           .giuacuoi3 .mxh li {display: inline;margin: 0 0 0 30px;}
+          
+
+
+}
+
+
+@media only screen and (min-width:320px) and (max-width:1023px){
+
+  #toantrang {width:100%;height:auto;}
+#menu {width:100%;height:50px; position:relative;;margin:0;padding:0;}
+#menu .menubagach {position: absolute;top:20px;left:0; margin:0;padding:0;}
+  .logo {color:red;font-size: 17px;position:absolute;top:20px;
+          left:40%;margin:0;padding:0;}
+  #menu ul {display:none; position:absolute;top:0;right:50px;}
+  #menu ul li {display:none;display:inline; margin:0 25px 0 0; position:relative;}
+  #menu img {position:absolute; top:10px;right:10px;margin:0;padding:0;}
+  #menu ul li ul {display:none;position: absolute; top:100%;left:-40px;z-index:2;
+    width: 300px;background-color:whitesmoke; border-radius: 10px;}
+  #menu ul li ul li {display:none; display:block;margin: 5px 0 5px 0;}
+  #menu ul li ul li a {display:none;font-size: 20px;text-decoration: none;color:black;}
+  #menu ul li ul li:hover a {display:none;font-size: 20px;text-decoration: underline; color:blueviolet;}
+  #menu ul li:hover ul {display:none;display:block;}
+
+  #anhmenu {width: 100%; height:600px; background-image:url("ima1.png");background-size:100% 100%;
+       position:relative;margin:0;padding:0;}
+       #anhmenu .chuh1 {display:none;}
+       .chuh1a {color:white;position:absolute;top:30%;left:15%; font-size:25px; }
+       .chuh5 { color:white;position:absolute;top:40%;left:15%;font-size:15px;}
+       .chuh5>img {margin:0 20px 0 0;}
+       .chugoctrai {width:30%;height:100px; position:absolute;left:0;bottom:20px;}
+       .chugoctrai img{float:left;margin: 40px 30px 0 40px; }
+       .chugoctrai p {display:none;margin:50px 0 0 0;color:white;font-size:15px;}
+
+       .chugocphai {width:25%;height:100px;position: absolute;
+         bottom:0px;right:10px;}
+       .chugocphai h3 {color:red; font-size:15px;}
+       .chugocphai p {display:none;color:white;padding: 0px 0 0 20px;}
+       .chugocphai .an1023 {display:none;}
+
+
+       #phangiua {width:80%;height:auto;margin:0 auto; }
+       #om3div {width:100%;height: auto; margin-top:50px;position: relative;}
+       
+       #om3div>.trai1a {display:none;width:100%;height:auto;
+         border-bottom:1px solid black;position: relative; }
+
+         .trai1 {width:100%;height:auto; }
+         .trai1 .h1trai1 {display:none;}
+       .trai1 .h1trai1a {margin:0 0 0 0;}
+       .trai1 .ptrai1 {color:black; margin-bottom:150px;}
+       .trai1 .h3trai1 {display:none;color:black;}
+       .trai1 .imgtrai1 {display:none;float:left;}
+       .trai1 .p2trai1 {display:none;color:black;margin:0 0 50px 40px;}
+
+
+       .phai1 {width:100%;height:auto;margin:80px 0 0 0;}
+       .phai1 .imgphai1 {display:none;float:left;}
+       .phai1 .h3phai1 {margin:10px 0 60px 0px;}
+       .phai1 .pphai1 {color:black;margin: 0 0 20px 0;}
+       .phai1 .img2phai1 {float:left;}
+       .phai1 .p2phai1 {color:black;margin:0 0 0 20px;}
+
+       .phai2 {width:100%;height:auto;margin-top:50px;}
+       .phai2 .imgphai2 {float:left;}
+       .phai2 .h3phai2 {margin:10px 0 60px 50px;}
+       .phai2 .pphai2 {color:black;margin: 0 0 20px 0;}
+       .phai2 .img2phai2 {float:left;}
+       .phai2 .p2phai2 {color:black;margin:0 0 0 20px;}
+       .phai2 .img3phai2 {width:90%;height:250px;margin:10px 0 30px 0;}
+
+
+
+       #phancuoi {display:none;width:100%;height:auto; background-color:darkgray;margin-top:60px;}
+       .giuacuoi {width:80%;height:300px;margin:0 auto; position:relative;}
+          
+
+        .giuacuoi1 {width:100%;height:120px;position: absolute;top:40px;left:0;}
+              .giuacuoi1 .pgiuacuoi1 {color:white;width:50px;height:20px;
+          margin:0 200px 0 0;}
+          .giuacuoi1 .ul1giuacuoi1 {list-style: none;position:absolute;top:0px;left:40%; margin:0;padding:0;color:white;}
+          .giuacuoi1 .ul2giuacuoi1 {list-style: none;position:absolute;top:0px;left:60%; margin:0;padding:0;color:white;}
+          .giuacuoi1 .ul3giuacuoi1 {list-style: none;position:absolute;top:0px;left:80%; margin:0;padding:0;color:white;}
+        .giuacuoi2 {width:50%;height:120px;position: absolute;top:170px;left:0;}
+             .giuacuoi2 .inpgiuacuoi2 {width:40%;position: absolute;top:0;left:0;
+                 height:30px;border:1px solid whitesmoke;}
+                 .giuacuoi2 .imggiuacuoi2 {position: absolute;top:8px;left:35%; }
+                 .giuacuoi2 .pgiuacuoi2 {position: absolute;top:35px;left:0; color:white;}
+                 
+
+        .giuacuoi3 {width:50%;height:80px;position: absolute;top:170px;right:0;}
+           .giuacuoi3 .mxh {list-style: none; position: absolute;bottom:0;right:0;margin:0;padding:0;}
+           .giuacuoi3 .mxh li {display: inline;margin: 0 0 0 30px;}
+
+
+
+}
